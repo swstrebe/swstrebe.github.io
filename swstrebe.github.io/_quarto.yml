@@ -4,10 +4,13 @@ project:
 website:
   title: "swstrebe.github.io"
   navbar:
+    background: primary
+    search: true
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+    - text: "Home"
+      href: index.qmd
+    - talks.qmd
+    - about.qmd 
 
 format:
   html:
