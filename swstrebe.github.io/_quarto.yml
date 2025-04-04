@@ -1,16 +1,16 @@
 project:
   type: website
+  output-dir: ../docs
 
 website:
   title: "swstrebe.github.io"
   navbar:
-    background: primary
-    search: true
-      left:
-      - text: "Home"
-        href: index.qmd
-      - talks.qmd
-      - about.qmd 
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - contact.qmd
+
 
 format:
   html:
@@ -19,6 +19,3 @@ format:
       - brand
     css: styles.css
     toc: true
-
-
-
